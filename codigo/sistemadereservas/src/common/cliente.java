@@ -1,11 +1,11 @@
 package Common;
 
-public class cliente {
+public class Cliente {
     private String nombre;
     private String apellido;
     private String identificacion;
     private String telefono;
-    public cliente(String nombre, String apellido, String identificacion, String telefono) {
+    public Cliente(String nombre, String apellido, String identificacion, String telefono) {
         this.nombre = nombre;
         this.apellido = apellido;
         this.identificacion = identificacion;
@@ -26,6 +26,7 @@ public class cliente {
     public String getIdentificacion() {
         return identificacion;
     }
+    
     public void setIdentificacion(String identificacion) {
         this.identificacion = identificacion;
     }
@@ -35,6 +36,10 @@ public class cliente {
     public void setTelefono(String telefono) {
         this.telefono = telefono;
     }
-
+    
+        public String getinformacion() {
+            return "nombre: " + getNombre() + " apellido " + getApellido() + " indentificacion: " + getIdentificacion();
+        
+    }
     
 }
