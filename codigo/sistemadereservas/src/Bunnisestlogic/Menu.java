@@ -10,5 +10,6 @@ public class Menu {
         System.out.println("Cliente: " + cliente2.getinformacion());
 
     }
+    
 
 }
