@@ -1,5 +1,5 @@
 package common;
-
+/*Prueba de cambios simultaneos */
 public class Cliente {
 
     private String nombre;
