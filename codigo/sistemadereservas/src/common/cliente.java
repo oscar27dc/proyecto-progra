@@ -1,4 +1,4 @@
-package Common;
+package common;
 
 public class Cliente {
     private String nombre;
@@ -42,8 +42,5 @@ public class Cliente {
         
             
     }
-    
-}
-
     
 }
