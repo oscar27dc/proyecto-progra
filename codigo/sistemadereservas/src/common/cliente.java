@@ -1,5 +1,7 @@
 package common;
-
+/*Prueba de cambios simultaneos
+ * Otro comentario
+ */
 public class Cliente {
 
     private String nombre;
