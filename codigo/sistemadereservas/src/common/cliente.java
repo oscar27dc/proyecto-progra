@@ -1,11 +1,12 @@
 package common;
 
-public class Cliente {
+public class cliente {
+
     private String nombre;
     private String apellido;
     private String identificacion;
     private String telefono;
-    public Cliente(String nombre, String apellido, String identificacion, String telefono) {
+    public cliente(String nombre, String apellido, String identificacion, String telefono) {
         this.nombre = nombre;
         this.apellido = apellido;
         this.identificacion = identificacion;
