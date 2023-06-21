@@ -1,11 +1,11 @@
 package BusinessLogic;
 
-import common.cliente;
+import common.Cliente;
 
 public class Menu {
 
     public Menu() {
-        cliente cliente2 = new cliente("hillary", "marin", "208620037", " 60878903");
+        Cliente cliente2 = new Cliente("hillary", "marin", "208620037", " 60878903");
 
         System.out.println("Cliente: " + cliente2.getinformacion());
 
