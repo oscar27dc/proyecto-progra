@@ -19,11 +19,10 @@ public class Seguridad {
         usuarioAdmin.setVgNombreDeUsuario("Admin");
         usuarioAdmin.setVgPassword("123");
         System.out.println("Ingrese su nombre");
-        System.out.println("ingrese su apellido");
-        
+        System.out.println(Ingrese su apellido);
 
         Usuario usuarioClienteOscar = new Usuario("Oscar", "123");
-        Usuario usuarioClienteHillary = new Usuario("Hillary", "123");
+        Usuario usuarioHillary = new Usuario("Hillary", "123");
         Usuario usuarioClienteMelvin = new Usuario("Melvin", "123");
         Usuario usuarioClienteLuis = new Usuario("Luis", "123");
     
@@ -37,7 +36,7 @@ public class Seguridad {
     
     public boolean buscarPorUsuarioClave(String vpUsuario, String vpClave) {
         
-        
+         */
         for (int indice = 0; indice < arregloUsuarios.length; indice++) {
 
         
